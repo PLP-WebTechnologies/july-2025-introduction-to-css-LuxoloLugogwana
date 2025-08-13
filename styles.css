@@ -1,0 +1,67 @@
+body{
+    background-color:burlywood;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+#search-bar{
+    border-style: solid;
+    padding-left: 5px;
+    margin-left: 97px;
+}
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    color: darkolivegreen;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:aquamarine;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+border-collapse: collapse;
+  border-color:aquamarine;
+  margin: 70px;
+  padding: 50px;
+  border-style:double;
+  background-color: darkslategrey;
+}
+
+.footer-content{
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: center;
+    position:center;
+}
